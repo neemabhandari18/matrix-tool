@@ -1,1 +1,12 @@
-numpy
+
+
+## 📌 Features
+- Add, subtract, multiply matrices
+- Compute transpose
+- Find determinant of square matrices
+- Simple CLI interface using Python
+
+## ▶️ How to Run
+
+```bash
+python matrix_tool.py
