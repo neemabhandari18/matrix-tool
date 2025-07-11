@@ -70,15 +70,18 @@ def main():
                 print("Error: Matrices must be the same size for subtraction.")
 
         # ── 3. Matrix Multiplication ───────────
+        
         elif choice == "3":
+            A = input_matrix("Matrix A")
             B = input_matrix("Matrix B")
             if A.shape[1] == B.shape[0]:
-                result = np.dot(A, B)
-                print("Result of A × B:\n", result)
+                 result = np.dot(A, B)
+                 print("Result of A × B:\n", result)
             else:
-                print("Error: Number of columns in A must match rows in B.")
+                 print("Error: Number of columns in A must match rows in B.")
 
         # ── 4. Matrix Transpose ────────────────
+
         elif choice == "4":
             A = input_matrix("Matrix")
             print("Transpose of Matrix:\n", A.T)
