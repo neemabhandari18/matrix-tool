@@ -1,3 +1,10 @@
+## 📦 Installation
+
+Make sure you have Python and NumPy installed:
+
+```bash
+pip install -r requirements.txt
+
 
 
 ## 📌 Features
